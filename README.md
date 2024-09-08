@@ -10,7 +10,7 @@ import pandas as pd  # noqa: E402, F811
 import tkinter as tk  # noqa: E402, F811
 from tkinter import filedialog, messagebox  # noqa: E402, F811
 
-caminho_arquivos = r'C:\Users\joao.silveira\OneDrive - Becomex\Área de Trabalho\piloto.cat83\arquivoscat'
+caminho_arquivos = r'C:\Users\Área de Trabalho\piloto.cat83\arquivoscat'
 arquivo = ""  # Variável global para armazenar o nome do arquivo
 base0150_path = ""  # Variável global para armazenar o caminho da base 0150 
 
@@ -408,7 +408,7 @@ MAPA_REGISTROS = {
     '5235': 2, '5240': 10, '5260': 2, '5265': 2, '5270': 2, '5275': 12, '5310': 2,
     '5360': 2, '5410': 2, '5550': 2, '5555': 11, '5590': 2, '5595': 2
 }
-CAMINHO_ARQUIVOS = r'C:\Users\joao.silveira\OneDrive - Becomex\Área de Trabalho\piloto.cat83\arquivoscat'
+CAMINHO_ARQUIVOS = r'C:\Users\Área de Trabalho\piloto.cat83\arquivoscat'
 arquivo = ""
 
 def abrir_janela(itens_info, remover=True):  # noqa: F811
@@ -613,7 +613,7 @@ def sexto_codigo():
 import tkinter as tk  # noqa: E402
 from tkinter import filedialog, messagebox  # noqa: E402, F811
 
-CAMINHO_ARQUIVOS = r'C:\Users\joao.silveira\OneDrive - Becomex\Área de Trabalho\piloto.cat83\arquivoscat'
+CAMINHO_ARQUIVOS = r'C:\Users\Área de Trabalho\piloto.cat83\arquivoscat'
 arquivo = ""
 
 def ler_arquivo_com_codificacao(arquivo, codificacoes):  # noqa: F811
@@ -683,7 +683,7 @@ def setimo_codigo():
 import tkinter as tk  # noqa: E402
 from tkinter import filedialog, messagebox  # noqa: E402, F811
 
-CAMINHO_ARQUIVOS = r'C:\Users\joao.silveira\OneDrive - Becomex\Área de Trabalho\piloto.cat83\arquivoscat'
+CAMINHO_ARQUIVOS = r'C:\Users\Área de Trabalho\piloto.cat83\arquivoscat'
 arquivo = ""
 
 def ler_arquivo_com_codificacao(arquivo, codificacoes):  # noqa: F811
